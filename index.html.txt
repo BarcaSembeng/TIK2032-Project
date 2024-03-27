@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Abu Barca</title>
+  <style>
+    body {
+      background-color: red; /* Mengatur latar belakang menjadi warna merah */
+    }
+    
+    /* Gaya tombol login */
+    .login-button {
+      background-color: #ff0000;
+      color: #ffffff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Abu Barca Header</h1>
+    <!-- Menu navigasi, logo, atau elemen header lainnya -->
+  </header>
+
+  <nav>
+    <!-- Menu navigasi utama -->
+    <ul>
+      <li><a href="index.html">Beranda</a></li>
+      <li><a href="tentang.html">Tentang Kami</a></li>
+      <li><a href="layanan.html">Layanan</a></li>
+      <li><a href="kontak.html">Kontak</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <!-- Konten utama website -->
+    <section>
+      <h2>Tentang Abu Barca</h2>
+      <p>Isi tentang Abu Barca...</p>
+    </section>
+
+    <section>
+      <h2>Layanan Abu Barca</h2>
+      <p>Daftar layanan Abu Barca...</p>
+    </section>
+  </main>
+
+  <footer>
+    <!-- Footer website -->
+    <p>Hak Cipta &copy; 2023 Abu Barca</p>
+  </footer>
+
+  <button class="login-button">Login</button> <!-- Menampilkan tombol login -->
+
+  <script src="script.js"></script>
+</body>
+</html>
